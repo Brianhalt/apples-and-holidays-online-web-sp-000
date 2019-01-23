@@ -56,6 +56,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
     if season == :fall
       holidays.each do |holiday|
         holiday << "columbus_day"
+        holidays
       end
     end
   end
